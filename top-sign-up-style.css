@@ -8,16 +8,36 @@ body {
 main {
     display: flex;
     height: inherit;
+    padding: 0 15%;
+    background-color: #36454F;
+}
+
+#branding {
+    background-image: url(img/daniel-roe-lpjb_UMOyx8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #logo {
     display: flex;
     position: relative;
     top: 35%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#logo img {
+    width: 100px;
+}
+
+#logo-title {
+    color: #fff;
+    font-size: 72px;
 }
 
 #form-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #FFFFF0;
 }
