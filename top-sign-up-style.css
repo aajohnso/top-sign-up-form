@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    height: inherit;
+}
+
+#logo {
+    display: flex;
+    position: relative;
+    top: 35%;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
